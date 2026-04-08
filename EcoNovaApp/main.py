@@ -1119,14 +1119,6 @@ def main(page: fl.Page):
             top_view = page.views[-1]
             await page.push_route("/pagina_inicial")
 
-    # ProgressRing
-    async def animar():
-        voltas_total = 40
-        tempo_por_volta = 0.001
-        for i in range(1, voltas_total + 1):
-            await asyncio.sleep(tempo_por_volta)
-        await page.push_route("/pagina_inicial")
-
     # Componentes
 
     # Eventos
