@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="msgpaick" />
+          <option value="anyio" />
+          <option value="arrow" />
+          <option value="binaryornot" />
+          <option value="certifi" />
+          <option value="chardet" />
+          <option value="charset-normalizer" />
+          <option value="colorama" />
+          <option value="flet" />
+          <option value="flet-cli" />
+          <option value="flet-desktop" />
+          <option value="h11" />
+          <option value="httpcore" />
+          <option value="httpx" />
+          <option value="idna" />
+          <option value="mdurl" />
+          <option value="msgpack" />
+          <option value="oauthlib" />
+          <option value="packaging" />
+          <option value="python-dateutil" />
+          <option value="python-slugify" />
+          <option value="qrcode" />
+          <option value="repath" />
+          <option value="requests" />
+          <option value="six" />
+          <option value="text-unidecode" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="Jinja2" />
+          <option value="MarkupSafe" />
+          <option value="Pygments" />
+          <option value="PyYAML" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="flet.controls.material.container.Container.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
